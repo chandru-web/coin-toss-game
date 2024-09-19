@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 70%;
+  width: 50%;
+}
+.toss-image {
+  height: 150px;
+  width: 150px;
+}
+.coin-toss-game-heading {
+  color: #a35200;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+.heads-or-tails {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #334155;
+}
+.toss-coin-button {
+  color: #a35200;
+  background-color: #f9d423;
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px solid #f9d423;
+  cursor: pointer;
+}
+.score-container {
+  display: flex;
+  justify-content: space-around;
+}
+.total,
+.heads,
+.tails {
+  margin: 40px;
+}
